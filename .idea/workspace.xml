@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67dcd041-dee1-4bcc-8598-98220630e6db" name="Changes" comment="инициализация проекта, перенесен код с лекции">
+    <list default="true" id="67dcd041-dee1-4bcc-8598-98220630e6db" name="Changes" comment="Сделала рефакторинг кода, добавила реализацию репозитория">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" afterDir="false" />
     </list>
@@ -176,7 +177,7 @@
       <updated>1724131528951</updated>
       <workItem from="1724131529902" duration="3353000" />
       <workItem from="1724136211486" duration="1676000" />
-      <workItem from="1724137953493" duration="6905000" />
+      <workItem from="1724137953493" duration="9121000" />
     </task>
     <task id="LOCAL-00001" summary="инициализация проекта, перенесен код с лекции">
       <option name="closed" value="true" />
@@ -186,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724139062049</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сделала рефакторинг кода, добавила реализацию репозитория">
+      <option name="closed" value="true" />
+      <created>1724145823340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724145823340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +203,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="инициализация проекта, перенесен код с лекции" />
-    <option name="LAST_COMMIT_MESSAGE" value="инициализация проекта, перенесен код с лекции" />
+    <MESSAGE value="Сделала рефакторинг кода, добавила реализацию репозитория" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделала рефакторинг кода, добавила реализацию репозитория" />
   </component>
 </project>
