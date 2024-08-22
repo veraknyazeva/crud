@@ -9,11 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67dcd041-dee1-4bcc-8598-98220630e6db" name="Changes" comment="Сделала рефакторинг кода, добавила реализацию репозитория">
+    <list default="true" id="67dcd041-dee1-4bcc-8598-98220630e6db" name="Changes" comment="поправила todo">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -51,7 +61,7 @@
     "Maven.crud [compile].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.tomcat.executor": "Run",
+    "Tomcat Server.tomcat.executor": "Debug",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/veraknazeva/IdeaProjects/crud/src/main/resources",
     "node.js.detected.package.eslint": "true",
@@ -68,6 +78,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -177,7 +190,8 @@
       <updated>1724131528951</updated>
       <workItem from="1724131529902" duration="3353000" />
       <workItem from="1724136211486" duration="1676000" />
-      <workItem from="1724137953493" duration="9121000" />
+      <workItem from="1724137953493" duration="9853000" />
+      <workItem from="1724219176916" duration="7042000" />
     </task>
     <task id="LOCAL-00001" summary="инициализация проекта, перенесен код с лекции">
       <option name="closed" value="true" />
@@ -195,15 +209,35 @@
       <option name="project" value="LOCAL" />
       <updated>1724145823340</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="поправила todo">
+      <option name="closed" value="true" />
+      <created>1724148100208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724148100208</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="инициализация проекта, перенесен код с лекции" />
     <MESSAGE value="Сделала рефакторинг кода, добавила реализацию репозитория" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделала рефакторинг кода, добавила реализацию репозитория" />
+    <MESSAGE value="поправила todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="поправила todo" />
   </component>
 </project>
